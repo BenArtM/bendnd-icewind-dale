@@ -51,7 +51,11 @@ ul.posts li {
     font-size: 30px;
   }
 
-.container {
+.thumnail-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     max-width:64px;
     max-height:64px;
     width:auto;
